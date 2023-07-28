@@ -1,0 +1,31 @@
+body{
+    background-color: #060730;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: rgba(0, 13, 255, 0.319);
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+input{
+    padding: 5px 10px;
+    color: aliceblue;
+    background-color: #2325a2e8;
+    border: 0;
+    outline: none;
+    width: 300px;
+    flex-grow: 1;
+}
+button{
+    background-color: #0e1081;
+    color: aliceblue;
+    border: 0;
+    width: 5px 10px;
+    flex-grow: 1;
+}
